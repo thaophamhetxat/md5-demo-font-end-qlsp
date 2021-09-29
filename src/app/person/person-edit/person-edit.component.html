@@ -1,0 +1,58 @@
+<h1>edit</h1>
+<form [formGroup]="personForm" (ngSubmit)="saveProduct()">
+  <table>
+    <tr>
+      <td>Idcode:</td>
+      <td><input type="number" formControlName="idCode"></td>
+    </tr>
+    <tr>
+      <td>name:</td>
+      <td><input type="text" formControlName="name"></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td><input type="text" formControlName="address"></td>
+    </tr>
+    <tr>
+      <td>phone</td>
+      <td><input type="text" formControlName="phone"></td>
+    </tr>
+    <tr>
+      <td>Gmail</td>
+      <td><input type="text" formControlName="gmail"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button>sua</button></td>
+    </tr>
+  </table>
+</form>
+
+
+<!--<div class="container">-->
+<!--  <h1>Edit Product</h1>-->
+
+<!--  <form [formGroup]="personForm">-->
+<!--    <div class="form-group">-->
+<!--      <label>Id</label>-->
+<!--      <input type="text" class="form-control" formControlName="id" placeholder="id" readonly>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <label>Name</label>-->
+<!--      <input type="text" class="form-control" formControlName="name" >-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--      <label>Price:</label>-->
+<!--&lt;!&ndash;      <input type="number" class="form-control" formControlName="price" placeholder="price">&ndash;&gt;-->
+<!--    </div>-->
+<!--&lt;!&ndash;    <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;      <label>Status:</label>&ndash;&gt;-->
+<!--&lt;!&ndash;      <select formControlName="status">&ndash;&gt;-->
+<!--&lt;!&ndash;        <option [ngValue]="true">Còn hàng</option>&ndash;&gt;-->
+<!--&lt;!&ndash;        <option [ngValue]="false">hết hàng</option>&ndash;&gt;-->
+<!--&lt;!&ndash;      </select>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+
+<!--    <button type="submit" (click)="saveProduct()" class="btn btn-primary">Submit</button>-->
+<!--  </form>-->
+<!--</div>-->
